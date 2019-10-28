@@ -18,7 +18,7 @@ steps:
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
 variables:
-  global_variable: value    # this is available to all jobs
+  global_variable: jobs    # this is available to all jobs
 
 jobs:
 - job: job1
