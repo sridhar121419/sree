@@ -6,16 +6,20 @@
 trigger:
 - master
 jobs:
--job: myJob
+- job: myJob
   timeoutInMinutes: 10
+  pool:
+    vmImage: 'ubuntu-16.04'
+  steps:
+  - bash: echo "Hello world"
   
-pool:
+##pool:
   #vmImage: 'ubuntu-latest'
-  vmImage: 'ubuntu-16.04'
+  #vmImage: 'ubuntu-16.04'
 
-steps:
-- script: echo Sridhar, world!
-  displayName: 'Run a one-line script'
+#steps:
+#- script: echo Sridhar, world!
+  #displayName: 'Run a one-line script'
 
 - script: |
     echo Add other tasks to build, test, and deploy your project.
