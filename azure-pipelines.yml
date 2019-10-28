@@ -13,7 +13,7 @@ pool:
 
 steps:
 - script: echo Sridhar, world!
-  displayName: 'Run a one-line script'
+  displayName: 'Job2'
 
 - script: |
     echo Add other tasks to build, test, and deploy your project.
