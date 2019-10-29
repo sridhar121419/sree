@@ -13,12 +13,12 @@ pool:
 
 steps:
 - script: echo Sridhar, world!
-  displayName: 'Job2'
+  displayName: 'Job1'
 
 - script: |
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/shell
-  displayName: 'Job3'
+  displayName: 'Job2'
 - script: |
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/shell
